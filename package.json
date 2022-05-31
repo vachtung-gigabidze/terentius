@@ -1,0 +1,20 @@
+{
+  "name": "terentius",
+  "version": "1.0.0",
+  "description": "telegram web elm",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "elm"
+  ],
+  "author": "Dmitrii Ziiadik",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^2.9.9",
+    "vite-plugin-elm": "^2.6.1"
+  }
+}
