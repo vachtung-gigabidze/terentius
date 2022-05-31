@@ -43,7 +43,7 @@ view model =
             column []
                 [ header
                 , text model.message
-                , viewPreview "../image.jpg"
+                , viewPreview "./image.jpg"
                 ]
         ]
     }
