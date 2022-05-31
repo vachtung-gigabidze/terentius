@@ -14,12 +14,13 @@ type Msg
 
 type alias Model =
     { message : String
+    , showImage : Bool
     }
 
 
 initialModel : Model
 initialModel =
-    { message = "Привет" }
+    { message = "Привет", showImage = False }
 
 
 main : Program () Model Msg
@@ -42,6 +43,7 @@ view model =
             column []
                 [ header
                 , text model.message
+                , viewPreview "../image.jpg"
                 ]
         ]
     }
@@ -54,8 +56,15 @@ header =
             , Border.rounded 4
             , paddingXY 8 4
             ]
-            { label = text "Жми", onPress = Just ButtonPress }
+            { label = text "Жми жеж", onPress = Just ButtonPress }
         ]
+
+
+viewPreview url =
+    image []
+        { src = url
+        , description = "An image"
+        }
 
 
 update msg model =
@@ -64,4 +73,4 @@ update msg model =
             ( model, Cmd.none )
 
         ButtonPress ->
-            ( { message = "Пока" }, Cmd.none )
+            ( { message = "Пока", showImage = True }, Cmd.none )
