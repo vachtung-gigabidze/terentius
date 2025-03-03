@@ -4452,10 +4452,10 @@ var $elm$core$Basics$GT = 2;
 var $elm$core$Basics$LT = 0;
 var $elm$core$Basics$False = 1;
 var $author$project$Models$init = {
-	bV: 'Привет! Я веб-разработчик с опытом работы в Elm и React.',
+	bV: 'Привет! Я веб-разработчик с опытом работы в Elm и Elixir.',
 	b9: _List_fromArray(
-		['Email: ivan@example.com', 'Телефон: +7 (999) 123-45-67']),
-	cC: 'Иван Иванов',
+		['Email: diman@example.com', 'Телефон: +7 (999) 123-45-67']),
+	cC: 'Зядик Дмитрий',
 	cL: _List_fromArray(
 		['Проект 1: Сайт компании', 'Проект 2: Интернет-магазин']),
 	cU: _List_fromArray(
