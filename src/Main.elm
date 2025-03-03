@@ -1,7 +1,7 @@
 module Main exposing (..)
 
 import Browser
-import Html exposing (Html)
+import Html exposing (Html, div)
 import Models exposing (Model, init)
 import Messages exposing (Msg)
 import Updates exposing (update)

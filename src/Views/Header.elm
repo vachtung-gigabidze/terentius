@@ -1,6 +1,6 @@
 module Views.Header exposing (..)
 
-import Html exposing (Html, div, h1, p)
+import Html exposing (Html, div, h1, p, text)
 import Html.Attributes exposing (class)
 
 view : String -> String -> Html msg
